@@ -266,7 +266,7 @@ write_xlsx(sheets, "OP Waiting list.xlsx")
 
 The final step of this task is visualising the data generated in our previous step. The GGplot and Treemapify libraries were used to create our visualisations.
 
-##### Plot 1:
+## Plot 1:
 
 Our below visualisation is a comparison of the number of patients on the waiting list for each year 2014 - 2018. As we can see it has grown steadily by almost 2 million since 2014.
 
@@ -288,7 +288,7 @@ pA + ggtitle("OP Waiting list totals 2014 - 2018:") +
 
 ![](Untitled_files/figure-markdown_github/plot1-1.png)
 
-##### Plot 2:
+## Plot 2:
 
 Our below visualisation is a comparison of the number of Age Categories on the waiting list for each year 2014 - 2018. We can see our spread is about even across the years as the waiting list has increased.
 
@@ -307,7 +307,7 @@ pB + ggtitle("Age category totals 2014 - 2018:") +
 
 ![](Untitled_files/figure-markdown_github/plot2-1.png)
 
-##### Plot 3:
+## Plot 3:
 
 Our below visualisation is a comparison of the number of Adults & Children on the waiting list for each year 2014 - 2018. Again, we can see our spread is about even across the years as the waiting list has increased.
 
@@ -327,7 +327,7 @@ pC + ggtitle("Adult & Child totals 2014 - 2018:") +
 
 ![](Untitled_files/figure-markdown_github/plot3-1.png)
 
-##### Plot 4:
+## Plot 4:
 
 Our below visualisation is a comparison of the number of Age & Children on the waiting list per Hospital for each year 2014 - 2018. We can the changes throughout the year for each Hospital. We can also see some new hospitals added as the years went on. Again, our spread seems to correlate to the increase in the number of patients.
 
@@ -349,7 +349,7 @@ pC1 + ggtitle("Adult & Child totals per Hospital 2014 - 2018:") +
 
 ![](Untitled_files/figure-markdown_github/plot4-1.png)
 
-##### Plot 5:
+## Plot 5:
 
 Our below visualisation is a comparison of the length of time (Time.Bands) patients are on the waiting list for each year 2014 - 2018. From this visualisation we can see that there is not a direct correlation between the increase in patients and the increase across the different time bands. Patients seem to be waiting longer on average. In 2014 we had almost no 18+ month patients but in 2018 it was responsible for about 1/5th of the waiting list time. The 0-3 months time band does not seem to have changed at all in size despite the increase in the total number of patients.
 
@@ -368,7 +368,7 @@ pD + ggtitle("Time Bands totals 2014 - 2018:") +
 
 ![](Untitled_files/figure-markdown_github/plot5-1.png)
 
-##### Plot 6:
+## Plot 6:
 
 Our below visualisation is a comparison of the length of time (Time.Bands) patients are on the waiting list per Hospital for each year 2014 - 2018. This graph correlates with our above results. Waiting times for Hospitals are increasing with 18+ months having the biggest increase.
 
@@ -389,7 +389,7 @@ pD1 + ggtitle("Time Bands totals per Hospital 2014 - 2018:") +
 
 ![](Untitled_files/figure-markdown_github/plot6-1.png)
 
-##### Plot 7:
+## Plot 7:
 
 Our below visualisation is a comparison of the number patients are on the waiting list for each Hospital for each year 2014 - 2018. Generally, we can see that our line graphs are increasing across the board. Some have went down but they mainly have increased. Some Hospital are worse offenders compared to others.
 
@@ -411,7 +411,7 @@ pE + ggtitle("Waiting list total for each Hospital 2014 - 2018:") +
 
 ![](Untitled_files/figure-markdown_github/plot7-1.png)
 
-##### Plot 8:
+## Plot 8:
 
 Our below visualisation is again a comparison of the number patients are on the waiting list for each Hospital for each year 2014 - 2018. With Bantry General Hospital, Galway University Hospital and Our Lady's Children's Hospital Crumlin highlighted. This graph is another form of our previous graph. It again shows us an increase for most hospitals. Galway University Hospital was our worst offender. It it is about 1.5 times more compared to 2014.Our Lady's Children's Hospital Crumlin was slowly increasing from 2014 - 2016 but from 2016 - 2017, its increase accelerated. Bantry General Hospital actually went down, but it's patients numbers to begin with were low.
 
@@ -443,7 +443,7 @@ pE1 + ggtitle("Waiting lists for Hospitals 2014-2018:") +
 
 ![](Untitled_files/figure-markdown_github/plot8-1.png)
 
-##### Plot 9:
+## Plot 9:
 
 Our below visualisation is again a comparison of the waiting times (Time Bands) on the waiting list for each Specialty for each year 2014 - 2018. We can see a general increase across the board for each Specialty. Some Specialties that were there in 2014 are no longer there in 2018 and some in 2018 weren't there in 2014.The increase in Time Bands again correlates to our previous results on the Time Bands above.
 
@@ -464,7 +464,7 @@ pF + ggtitle("Time Bands totals per Specialty 2014 - 2018:") +
 
 ![](Untitled_files/figure-markdown_github/plot9-1.png)
 
-##### Plot 10:
+## Plot 10:
 
 Our below visualisation is a comparison of the Specialties on the waiting list for each year 2014 - 2018. This time we are looking at a treemap for each Specialty. Similar to above we can see an increase in some Specialties and that some Specialties that were there in 2014 are no longer there in 2018 and some in 2018 that weren't there in 2014. For Example in 2014 our top Specialty was Otolaryngology and in 2018 it was Orthopedics. For 2014 too, we can see bigger clusters compared to 2018. This shows us an increase in the number of Specialties as well as an increase in the waiting lists for each.
 
