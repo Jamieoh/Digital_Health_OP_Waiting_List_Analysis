@@ -14,7 +14,7 @@ library(treemapify)
 library(writexl)
 ```
 
-## 1. Accessing the datasets available on Open Data Platform:
+## 1. Accessing the datasets available on the Open Data Platform:
 ----------------------------------------------------------
 
 This first step of this task is accessing the relevant dataset from <https://data.gov.ie/>. Here the CKAN API for R was used. The datasets we are looking for are from the OP Waiting List By Group Hospital from 2014 - 2018.
@@ -146,7 +146,7 @@ head(csvFull)
     ## 5       Child               0-15  0-3 Months   193 2014
     ## 6       Child               0-15  3-6 Months   132 2014
 
-## 3. Aggregate counts:
+## 3. Aggregating the data and generating a summary table for OP Waiting list:
 --------------------
 
 The third step of this task is aggregating the data and generating a summary table for OP Waiting list showing the changes years wise across several dimensions. The different aggregation tables are then written to one xlsx file with each table representing one sheet.
@@ -261,7 +261,7 @@ sheets <- list("Patients Count" = yearCount, "Age Categories" = yearAge,
 write_xlsx(sheets, "OP Waiting list.xlsx")
 ```
 
-## 4. Visualisation of the results and visualisation results:
+## 4. Visualisation of the results:
 ----------------------------------------------------------
 
 The final step of this task is visualising the data generated in our previous step. The GGplot and Treemapify libraries were used to create our visualisations.
