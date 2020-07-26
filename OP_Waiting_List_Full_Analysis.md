@@ -1,6 +1,6 @@
 CT5103 Case Studies in Data Analytics - Assignment 3
 ================
-Kevin Derrane
+Jamie O'Halloran + Kevin Derrane
 27 March 2019
 
 ``` r
