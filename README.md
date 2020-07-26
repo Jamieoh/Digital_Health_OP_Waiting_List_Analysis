@@ -27,3 +27,8 @@ changes years wise across several dimensions. This summary table should be avail
 CSV file or any other open data format.
 4. Visualisation of the result (30 Marks)
 This final step involves presenting the data in the Table generated in Step 3 as a chart.
+
+### Assignment Analysis:
+- The OP Waiting list.xlsx file contains the data in question which is available at the National Open Data Portal from data.gov.ie.
+- The R_Studio_Assignment_Code.r file contains the R Studio produced to conduct an investigation of the four primary challenges above.
+- The OP_Waiting_Full_Analysis.md file contains the full analysis of the dataset.
