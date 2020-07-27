@@ -12,7 +12,8 @@ platform and accessing the datasets and associated files for each year on the po
 student will be required to integrate files associated with the dataset, analyse them by aggregating
 the counts by hospital and finally creating a chart to display the changes in OP waiting list over time
 https://data.gov.ie/dataset/op-waiting-list-by-group-hospital (consider datasets from 2014 to 2018):
-## Challenges:
+
+### Challenges:
 There are four primary challenges associated with this task:
 1. Accessing the datasets available on Open Data Platform (20 Marks)
 Students will need to connect to the National Open Data portal at data.gov.ie using the
